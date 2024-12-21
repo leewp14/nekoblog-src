@@ -1,0 +1,44 @@
+/* nekoblog-overrides:css/default.css */
+/* Revision HON20241221 */
+
+:root {
+    --var-global-header-height: 4rem;
+}
+
+/* global: hero bg height */
+body > section:first-of-type div.bg-cover {
+    height: calc(100vh - var(--var-global-header-height));
+}
+
+/* index: hero bg shadow */
+body > section:first-of-type div.bg-cover::before {
+    content: var(--tw-content);
+    background-color: #0006;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+/* index/archive: hero header text */
+body > section:first-of-type div.bg-cover > div:first-of-type {
+    left: 4rem;
+    position: absolute;
+    align-items: flex-start;
+    bottom: 4rem;
+    height: auto;
+}
+body > section:first-of-type header {
+    align-items: flex-start;
+    bottom: 4rem;
+    height: auto;
+    top: unset;
+    padding: 1.5rem;
+    padding-left: calc(1.5rem + 4rem);
+}
+
+/* archive: do not bring forward content */
+body > section:nth-of-type(2).mt-6.\!-mt-20 {
+    margin-top: 1.5rem !important;
+}
