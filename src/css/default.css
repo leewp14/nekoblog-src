@@ -42,3 +42,35 @@ body > section:first-of-type header {
 body > section:nth-of-type(2).mt-6.\!-mt-20 {
     margin-top: 1.5rem !important;
 }
+
+/* index: archive list do not show content preview */
+body > section:nth-of-type(2) div#post-list p {
+    display: none;
+}
+
+/* index: archive list make cover image taller */
+body > section:nth-of-type(2) div#post-list div.aspect-h-9.aspect-w-16 {
+    min-height: 21rem;
+}
+
+/* index: archive list add shade to cover image */
+body > section:nth-of-type(2) div#post-list div.aspect-h-9.aspect-w-16 > a > img {
+    opacity: .7;
+}
+
+/* index: archive list do not show author */
+/* body > section:nth-of-type(2) div#post-list a[href^="/authors/"][title] {
+    display: none;
+} */
+
+/* index: archive list do not show author and date */
+body > section:nth-of-type(2) div#post-list > div.group > div:nth-of-type(2) > div:nth-of-type(2) {
+    display: none;
+}
+
+/* index: archive list redesign */
+body > section:nth-of-type(2) div#post-list > div.group > div:nth-of-type(2) {
+    position: absolute;
+    height: auto;
+    pointer-events: none;
+}
