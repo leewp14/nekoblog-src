@@ -50,7 +50,7 @@ body > section:nth-of-type(2) div#post-list p {
 
 /* index: archive list make cover image taller */
 body > section:nth-of-type(2) div#post-list div.aspect-h-9.aspect-w-16 {
-    min-height: 21rem;
+    min-height: 24rem;
 }
 
 /* index: archive list add shade to cover image */
