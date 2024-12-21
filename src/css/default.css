@@ -23,6 +23,9 @@ body > header#header-menu {
 body > section:first-of-type div.bg-cover {
     height: calc(100vh - var(--var-global-header-height));
 }
+body > section:first-of-type {
+    min-height: 5rem;
+}
 
 /* index: hero bg shadow */
 body > section:first-of-type div.bg-cover::before {
