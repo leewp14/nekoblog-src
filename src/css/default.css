@@ -3,6 +3,20 @@
 
 :root {
     --var-global-header-height: 4rem;
+    --var-global-max-content-width: 80rem;
+}
+
+/* global: header redesign */
+body > header#header-menu {
+    margin: auto;
+    background: none;
+    position: fixed;
+    width: 100%;
+    max-width: var(--var-global-max-content-width);
+    left: 0;
+    right: 0;
+    margin-top: 1rem;
+    border-radius: .7rem;
 }
 
 /* global: hero bg height */
