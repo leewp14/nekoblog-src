@@ -2,7 +2,7 @@
 /* Revision HON20241221 */
 
 :root {
-    --var-global-header-height: 4rem;
+    --var-global-header-height: 0rem;
     --var-global-max-content-width: 80rem;
 }
 
