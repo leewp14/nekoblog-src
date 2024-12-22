@@ -110,6 +110,63 @@
     background-color:rgb(51 51 51 / var(--tw-bg-opacity))
 }
 
+/* global: re-color PluginCommentWidget */
+@media (prefers-color-scheme: dark){
+    .color-scheme-auto,[data-color-scheme=auto] comment-widget{
+        color-scheme:dark;
+        --halo-comment-widget-base-info-color: #646464;
+        --halo-comment-widget-component-form-input-bg-color: #474747;
+        --halo-comment-widget-component-form-input-color: #ffffff;
+        --halo-comment-widget-component-form-input-border-color: #494949;
+        --halo-comment-widget-component-form-input-border-color-focus: #656565;
+        --halo-comment-widget-component-form-input-box-shadow-focus: 0 0 0 .15em #1c1c1c;
+        --halo-comment-widget-component-form-button-login-bg-color: #333333;
+        --halo-comment-widget-component-form-button-login-bg-color-hover: #474747;
+        --halo-comment-widget-component-form-button-login-border-color: #474747;
+        --halo-comment-widget-component-form-button-submit-border-color: #474747;
+        --halo-comment-widget-component-form-button-submit-border-color-hover: #646464;
+        --halo-comment-widget-component-form-button-emoji-color: #cbcbcb;
+        --halo-comment-widget-component-comment-item-action-bg-color-hover: #474747;
+        --halo-comment-widget-component-comment-item-action-color-hover: #949494;
+        --halo-comment-widget-component-pagination-button-bg-color-hover: #474747;
+        --halo-comment-widget-component-pagination-button-bg-color-active: #474747;
+        --halo-comment-widget-component-pagination-button-border-color-active: #474747;
+        --halo-comment-widget-component-emoji-picker-rgb-color: 222, 222, 222;
+        --halo-comment-widget-component-emoji-picker-rgb-accent: 58, 58, 58;
+        --halo-comment-widget-component-emoji-picker-rgb-background: 21, 21, 21;
+        --halo-comment-widget-component-emoji-picker-rgb-input: 0, 0, 0;
+        --halo-comment-widget-component-emoji-picker-color-border: rgba(255, 255, 255, .1);
+        --halo-comment-widget-component-emoji-picker-color-border-over: rgba(255, 255, 255, .2)
+    }
+}
+.color-scheme-dark,.dark,[data-color-scheme=dark] comment-widget{
+    color-scheme:dark;
+    --halo-comment-widget-base-color: #ffffff;
+    --halo-comment-widget-base-info-color: #646464;
+    --halo-comment-widget-component-form-input-bg-color: #474747;
+    --halo-comment-widget-component-form-input-color: #ffffff;
+    --halo-comment-widget-component-form-input-border-color: #494949;
+    --halo-comment-widget-component-form-input-border-color-focus: #656565;
+    --halo-comment-widget-component-form-input-box-shadow-focus: 0 0 0 .15em #1c1c1c;
+    --halo-comment-widget-component-form-button-login-bg-color: #333333;
+    --halo-comment-widget-component-form-button-login-bg-color-hover: #474747;
+    --halo-comment-widget-component-form-button-login-border-color: #474747;
+    --halo-comment-widget-component-form-button-submit-border-color: #474747;
+    --halo-comment-widget-component-form-button-submit-border-color-hover: #646464;
+    --halo-comment-widget-component-form-button-emoji-color: #cbcbcb;
+    --halo-comment-widget-component-comment-item-action-bg-color-hover: #474747;
+    --halo-comment-widget-component-comment-item-action-color-hover: #949494;
+    --halo-comment-widget-component-pagination-button-bg-color-hover: #474747;
+    --halo-comment-widget-component-pagination-button-bg-color-active: #474747;
+    --halo-comment-widget-component-pagination-button-border-color-active: #474747;
+    --halo-comment-widget-component-emoji-picker-rgb-color: 222, 222, 222;
+    --halo-comment-widget-component-emoji-picker-rgb-accent: 58, 58, 58;
+    --halo-comment-widget-component-emoji-picker-rgb-background: 21, 21, 21;
+    --halo-comment-widget-component-emoji-picker-rgb-input: 0, 0, 0;
+    --halo-comment-widget-component-emoji-picker-color-border: rgba(255, 255, 255, .1);
+    --halo-comment-widget-component-emoji-picker-color-border-over: rgba(255, 255, 255, .2)
+}
+
 /* global: header redesign */
 body > header#header-menu {
     margin: auto;
