@@ -209,6 +209,11 @@
     --tw-prose-invert-td-borders: #373737;
 }
 
+/* global: re-color default avatar svg */
+img[src="/themes/theme-earth/assets/images/default-avatar.svg"] {
+    filter: invert(1);
+}
+
 /* global: header redesign */
 body > header#header-menu {
     margin: auto;
