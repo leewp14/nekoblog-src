@@ -169,6 +169,46 @@
     --halo-comment-widget-component-emoji-picker-color-border-over: rgba(255, 255, 255, .2);
 }
 
+/* global: re-color tailwindcss typography */
+.tailwind-typography {
+    --tw-prose-body: #373737;
+    --tw-prose-headings: #111111;
+    --tw-prose-lead: #4b4b4b;
+    --tw-prose-links: #111111;
+    --tw-prose-bold: #111111;
+    --tw-prose-counters: #6b6b6b;
+    --tw-prose-bullets: #d1d1d1;
+    --tw-prose-hr: #e5e5e5;
+    --tw-prose-quotes: #111111;
+    --tw-prose-quote-borders: #e5e5e5;
+    --tw-prose-captions: #6b6b6b;
+    --tw-prose-kbd: #111111;
+    --tw-prose-kbd-shadows: 17 17 17;
+    --tw-prose-code: #111111;
+    --tw-prose-pre-code: #e5e5e5;
+    --tw-prose-pre-bg: #1f1f1f;
+    --tw-prose-th-borders: #d1d1d1;
+    --tw-prose-td-borders: #e5e5e5;
+    --tw-prose-invert-body: #d1d1d1;
+    --tw-prose-invert-headings: #fff;
+    --tw-prose-invert-lead: #9c9c9c;
+    --tw-prose-invert-links: #fff;
+    --tw-prose-invert-bold: #fff;
+    --tw-prose-invert-counters: #9c9c9c;
+    --tw-prose-invert-bullets: #4b4b4b;
+    --tw-prose-invert-hr: #373737;
+    --tw-prose-invert-quotes: #f3f3f3;
+    --tw-prose-invert-quote-borders: #373737;
+    --tw-prose-invert-captions: #9c9c9c;
+    --tw-prose-invert-kbd: #fff;
+    --tw-prose-invert-kbd-shadows: 255 255 255;
+    --tw-prose-invert-code: #fff;
+    --tw-prose-invert-pre-code: #d1d1d1;
+    --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
+    --tw-prose-invert-th-borders: #4b4b4b;
+    --tw-prose-invert-td-borders: #373737;
+}
+
 /* global: header redesign */
 body > header#header-menu {
     margin: auto;
