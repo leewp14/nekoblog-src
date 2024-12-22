@@ -220,6 +220,22 @@ body > header#header-menu {
     right: 0;
     margin-top: 1rem;
     border-radius: .7rem;
+    opacity: .7;
+    filter: blur(1px);
+    -webkit-transition: 0.5s ease all;
+	-moz-transition: 0.5s ease all;
+	-ms-transition: 0.5s ease all;
+	-o-transition: 0.5s ease all;
+	transition: 0.5s ease all;
+}
+body > header#header-menu.menu-sticky {
+    opacity: 1 !important;
+    filter: none !important;
+}
+body > header#header-menu:focus-within,
+body > header#header-menu:hover {
+    filter: none !important;
+    opacity: 1 !important;
 }
 
 /* global: hero bg height */
