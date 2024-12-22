@@ -300,19 +300,19 @@ body > section:nth-of-type(2) div#post-list div.aspect-h-9.aspect-w-16 > a > img
 } */
 
 /* index: archive list do not show author and date */
-body > section:nth-of-type(2) div#post-list > div.group > div:nth-of-type(2) > div:nth-of-type(2) {
+body > section:nth-of-type(2) div#post-list div.grid > div:nth-of-type(2) {
     display: none;
 }
 
 /* index: archive list redesign */
-body > section:nth-of-type(2) div#post-list > div.group > div:nth-of-type(2) {
+body > section:nth-of-type(2) div#post-list div.grid {
     position: absolute;
     height: auto;
     pointer-events: none;
 }
 
 /* index: styling for archive lisr category text */
-body > section:nth-of-type(2) div#post-list > div.group > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a {
+body > section:nth-of-type(2) div#post-list div.grid > div:nth-of-type(1) > div:nth-of-type(1) > a {
     background: #bfbfbf;
     padding: 0 5px;
 }
