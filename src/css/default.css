@@ -284,6 +284,18 @@ body > section:nth-of-type(2).mt-6.\!-mt-20 {
     margin-top: 1.5rem !important;
 }
 
+/* index: archive section do not show sidebar */
+body[data-contentpath="/"] > section:nth-of-type(2) > aside {
+    display: none;
+}
+
+/* index: archive section use 4 columns instead of 3 */
+@media (min-width: 1280px) {
+    body[data-contentpath="/"] > section:nth-of-type(2) div#post-list.xl\:grid-cols-3 {
+        grid-template-columns: repeat(4,minmax(0,1fr));
+    }
+}
+
 /* index: archive list do not show content preview */
 body > section:nth-of-type(2) div#post-list p {
     display: none;
